@@ -148,6 +148,10 @@ a {
   scroll-behavior: smooth;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .wrap {
   position: fixed;
   right: 0;
@@ -226,7 +230,7 @@ a {
 
 .navbar {
   width: 100%;
-  height: 3.8em;
+  height: 5em;
 }
 .navbar .container {
   display: flex;
@@ -250,7 +254,7 @@ a {
 .navbar__menu__logo {
   display: block;
   width: 7em;
-  height: 3.8em;
+  height: 5em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -264,7 +268,7 @@ a {
   margin: 0 2em;
 }
 .navbar__menu__list li {
-  height: 3.8em;
+  height: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,7 +476,6 @@ a {
   .phone-btn {
     display: none;
   }
-
   .AsideBrand {
     display: none;
   }

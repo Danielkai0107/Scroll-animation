@@ -4,6 +4,11 @@ const item = items.children;
 let trans = 0;
 let display = -1;
 
+window.onload = () => {
+  const wrap = document.querySelector('.wrap');
+  wrap.classList.remove('hidden');
+};
+
 function renderImg() {
   let p = 400;
   let file = '';
